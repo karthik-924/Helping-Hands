@@ -1,0 +1,126 @@
+body{
+    margin: auto 0;
+    background-color: lightgreen;
+    height: 100%;
+} 
+#date{
+    margin-left: 60%;
+}
+#data{
+    text-align: center;
+}
+#info{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+#contain{
+    align-items: center;
+    margin: auto;
+    height: fit-content;
+    margin-left: 15%;
+    width: fit-content;
+}
+#clothing {
+    margin-left: auto;
+    margin-right: 5px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    max-width: 76%;
+    height: auto;
+}
+#row{
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+}
+#footwear{
+    margin-left: 5px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    max-width: 38%;
+    height: auto;
+    margin-right: 0;
+}
+#border{
+    border: 2px solid black;
+    height: 10%;
+    width: fit-content;
+}
+#border2{
+    border: 2px solid black;
+    height: auto;
+    width: auto;
+}
+#tag{
+    text-align: center;
+    margin: 5px;
+    border: 2px solid yellow;
+}
+#log{
+    color: blue;
+    margin-left: 10px;
+    margin-top: 20px;
+    height: fit-content;
+}
+#but{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-block-end: 10%;
+}
+#head{
+    display: flex;
+    flex-direction: row;
+}
+#donate{
+    font-weight: bolder;
+    font-size:xx-large;
+    padding-left: 18%;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    max-height: min-content;
+    height: auto;
+    margin: 0 auto;
+    justify-content: center;
+    margin-top: 5%;
+}
+img{
+    height: auto;
+    width: 50%;
+}
+.image1{
+    width: 80%;
+    margin-left: 25%;
+}
+.image2{
+    width: 90%;
+}
+@media (min-width: 300px ){
+    #date{
+        margin-left: auto;
+        padding-left: 20px;
+    }
+}
+@media (max-width: 1000px){
+    #contain{
+        overflow-x: visible;
+        min-height: 0;
+    }
+    .row{
+        width: auto;
+        flex-direction: column;
+    }
+    #donate{
+        padding-left: 15%;
+        font-weight: bold;
+        font-size: large;
+    }
+    .image2{
+        margin-left: 25%;
+    }
+}
+

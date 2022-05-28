@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
+    <title>Helping Hands</title>
+</head>
+<body onload="display()" id="body">
+    <div id="head">
+    <button onclick="logout()" id="log">Logout</button>
+    <p id="date"></p>
+    </div>
+    <h1 id="data"></h1>
+    <h4 id="info">Please click on an item to add it to cart</h4>
+    <div class="row">
+        <div class="image1" onclick="location.href='buy-item.html'">
+            <img src="images/Donate.jpg" alt="donate">
+            <p id="donate">Donate</p>
+        </div>
+        <div class="image2" onclick="location.href='needhelp.html'">
+            <img src="images/Request.jpg" alt="request">
+            <p id="donate">Request</p>
+        </div>
+    </div>
+</body>
+</html>
